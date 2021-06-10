@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import '../../../stencil-components';
+import 'stencil-components';
 
 @Component({
   selector: 'app-root',

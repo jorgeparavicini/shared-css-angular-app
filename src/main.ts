@@ -7,7 +7,7 @@ import { environment } from './environments/environment';
 import {
   applyPolyfills,
   defineCustomElements,
-} from '../../stencil-components/loader';
+} from 'stencil-components/loader';
 
 if (environment.production) {
   enableProdMode();
