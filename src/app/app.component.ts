@@ -9,4 +9,5 @@ import 'stencil-components';
 })
 export class AppComponent {
   title = 'shared-css-app';
+  instances = 1000;
 }
