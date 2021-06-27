@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 import 'stencil-components';
 
@@ -10,4 +10,6 @@ import 'stencil-components';
 export class AppComponent {
   title = 'shared-css-app';
   instances = 1000;
+  timer = 0;
+  startTime = performance.now();
 }
